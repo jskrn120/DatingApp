@@ -21,6 +21,8 @@
         android:textSize="100dp"
         android:textStyle="bold"></TextView>
 
+
+
     <!--    <ImageView-->
 <!--        android:id="@+id/imageView"-->
 <!--        android:layout_width="match_parent"-->
