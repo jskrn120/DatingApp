@@ -50,14 +50,4 @@
         android:padding="20sp"
         android:text="SIGN UP"></Button>
 
-
-
-
-    <!--    <ImageView-->
-<!--        android:id="@+id/imageView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:scaleType="fitCenter"-->
-<!--        app:srcCompat="@drawable/login_bgcropped" />-->
-
 </RelativeLayout>
