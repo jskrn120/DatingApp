@@ -26,7 +26,6 @@
             android:textColor="@color/white"
             android:padding="7dp"
             android:textSize="40dp"
-            layout_
             android:textStyle="bold"></TextView>
 
         <TextView
