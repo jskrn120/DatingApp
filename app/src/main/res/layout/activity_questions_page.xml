@@ -6,33 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".Questions_page"
   >
-  
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFB6C1"
         android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/questions_heading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Personal Information"
-        android:textAlignment="center"
-        android:layout_marginTop="10dp"
-        android:fontFamily="cursive"
-        android:textSize="40dp"
-        android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/questions_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#E91E63"
+            android:fontFamily="cursive"
+            android:text="Personal Information"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:padding="7dp"
+            android:textSize="40dp"
+            layout_
+            android:textStyle="bold"></TextView>
 
-    <TextView
-        android:id="@+id/questions_subHeading"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/questions_heading"
-        android:fontFamily="casual"
-        android:text="Fill out the below fields"
-        android:textSize="15dp"
-        android:textAlignment="center" />
+        <TextView
+            android:id="@+id/questions_subHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/questions_heading"
+            android:fontFamily="casual"
+            android:text="Fill out the below fields"
+            android:textAlignment="center"
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/question1"
@@ -41,16 +46,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="1. Where are you located?"
-            android:textSize="20dp"
-             />
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:background="#30FFFFFF"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question2"
@@ -59,16 +64,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="2. What is your status?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:background="#30FFFFFF"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question3"
@@ -77,16 +82,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="3. Race/Ethnicity ?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:background="#30FFFFFF"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question4"
@@ -95,36 +100,35 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="4. How many children do you have?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <RadioButton
             android:id="@+id/radiobutton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="none"
-            ></RadioButton>
+            android:text="none"></RadioButton>
+
         <RadioButton
             android:id="@+id/radiobutton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="1-2"
-            ></RadioButton>
+            android:text="1-2"></RadioButton>
+
         <RadioButton
             android:id="@+id/radiobutton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="3-4"
-            ></RadioButton>
+            android:text="3-4"></RadioButton>
+
         <RadioButton
             android:id="@+id/radiobutton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="more"
             android:layout_marginLeft="20dp"
-            ></RadioButton>
+            android:text="more"></RadioButton>
 
         <TextView
             android:id="@+id/question5"
@@ -133,16 +137,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="5. What is your highest level of education?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:background="#30FFFFFF"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question6"
@@ -151,16 +155,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="6. What is your profession?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:background="#30FFFFFF"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question7"
@@ -168,23 +172,22 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
-            android:text= "7. Do you have any plan of starting a family?"
-            android:textSize="20dp"
-            />
+            android:text="7. Do you have any plan of starting a family?"
+            android:textSize="20dp" />
+
         <RadioButton
             android:id="@+id/radiobutton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Yes"
-            ></RadioButton>
+            android:text="Yes"></RadioButton>
+
         <RadioButton
             android:id="@+id/radiobutton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="No"
-            ></RadioButton>
+            android:text="No"></RadioButton>
 
         <TextView
             android:id="@+id/question8"
@@ -193,22 +196,21 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="8. Do you smoke?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <RadioButton
             android:id="@+id/radiobutton7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Yes"
-            ></RadioButton>
+            android:text="Yes"></RadioButton>
+
         <RadioButton
             android:id="@+id/radiobutton8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="No"
-            ></RadioButton>
+            android:text="No"></RadioButton>
 
         <TextView
             android:id="@+id/question9"
@@ -217,22 +219,21 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="9. Do you drink?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <RadioButton
             android:id="@+id/radiobutton9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Yes"
-            ></RadioButton>
+            android:text="Yes"></RadioButton>
+
         <RadioButton
             android:id="@+id/radiobutton10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="No"
-            ></RadioButton>
+            android:text="No"></RadioButton>
 
         <TextView
             android:id="@+id/question10"
@@ -241,16 +242,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="10. Name your best life skill?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:background="#30FFFFFF"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question11"
@@ -258,17 +259,17 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
-            android:text="10. Name things you can't live without?"
-            android:textSize="20dp"
-            />
+            android:text="11. Name things you can't live without?"
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:background="#30FFFFFF"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question12"
@@ -277,16 +278,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
             android:text="12. What do you do in your spare time?"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#30FFFFFF"
             android:layout_marginLeft="15dp"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/question13"
@@ -294,17 +295,31 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="25dp"
-            android:text="10. Name something your friends would say about you?"
-            android:textSize="20dp"
-            />
+            android:text="13. Name something your friends would say about you?"
+            android:textSize="20dp" />
+
         <TextView
             android:id="@+id/answer13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#30FFFFFF"
             android:layout_marginLeft="15dp"
             android:text=""
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logIn_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="20sp"
+            android:text="LOGIN"></Button>
 
 
     </LinearLayout>
