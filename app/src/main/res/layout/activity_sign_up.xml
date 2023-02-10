@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="20sp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:fontFamily="@font/lovers_quarrel"
+        android:fontFamily="@font/acme"
         android:gravity="center"
-        android:text="mingLe"
-        android:textColor="@color/pink"
-        android:textSize="100dp"
+        android:text="Sign Up"
+        android:textColor="#D5D4D4"
+        android:textSize="34sp"
         android:textStyle="bold"></TextView>
 
 
@@ -27,14 +27,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:fontFamily="@font/lovers_quarrel"
-        android:gravity="center"
+        android:fontFamily="@font/acme"
+        android:gravity="left"
         android:text="mingLe"
         android:textColor="@color/pink"
-        android:textSize="100dp"
+        android:textSize="20sp"
         android:textStyle="bold"></TextView>
 
 
