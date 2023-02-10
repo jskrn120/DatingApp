@@ -2,11 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signUp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp"
+    android:background="@drawable/login"
     android:orientation="vertical"
-    android:background="@drawable/login">
+    tools:context=".SignUp">
 
     <TextView
         android:layout_width="match_parent"
@@ -33,9 +34,9 @@
         android:fontFamily="@font/acme"
         android:gravity="left"
         android:text="mingLe"
-        android:textColor="@color/pink"
+        android:textColor="@color/white"
         android:textSize="20sp"
-        android:textStyle="bold"></TextView>
+        android:textStyle="normal"></TextView>
 
 
     <EditText
@@ -55,6 +56,7 @@
         android:id="@+id/signUp_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/signUp_name"
         android:layout_marginStart="10sp"
         android:layout_marginTop="10sp"
         android:layout_marginEnd="10sp"
@@ -62,40 +64,41 @@
         android:background="#30FFFFFF"
         android:hint="Email"
         android:padding="15dp"
-        android:textColorHint="@color/white"
-        android:layout_below="@+id/signUp_name"/>
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/signUp_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/signUp_email"
         android:layout_marginStart="10sp"
         android:layout_marginTop="10sp"
         android:layout_marginEnd="10sp"
         android:layout_marginBottom="10sp"
         android:background="#30ffffff"
-        android:hint="Email"
+        android:hint="Phone"
         android:padding="15dp"
-        android:textColorHint="@color/white"
-        android:layout_below="@+id/signUp_email"/>
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/signUp_dob"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/signUp_phone"
         android:layout_marginStart="10sp"
         android:layout_marginTop="10sp"
         android:layout_marginEnd="10sp"
         android:layout_marginBottom="10sp"
         android:background="#30FFFFFF"
-        android:hint="Email"
+        android:hint="Birthday"
         android:padding="15dp"
-        android:textColorHint="@color/white"
-        android:layout_below="@+id/signUp_phone"/>
+        android:textColorHint="@color/white" />
+
     <EditText
         android:id="@+id/signUp_gender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/signUp_dob"
         android:layout_marginStart="10sp"
         android:layout_marginTop="10sp"
         android:layout_marginEnd="10sp"
@@ -103,10 +106,23 @@
         android:background="#30FFFFFF"
         android:hint="Email"
         android:padding="15dp"
-        android:textColorHint="@color/white"
-        android:layout_below="@+id/signUp_dob"/>
+        android:textColorHint="@color/white" />
 
-
+    <Button
+        android:id="@+id/signUp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUp_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:onClick="onClickSignUp"
+        android:padding="20sp"
+        android:text="SIGN UP"></Button>
 
 
 </LinearLayout>

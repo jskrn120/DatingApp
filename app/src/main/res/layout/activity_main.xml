@@ -22,11 +22,41 @@
         android:textSize="100dp"
         android:textStyle="bold"></TextView>
 
+    <EditText
+        android:id="@+id/logIn_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#30FFFFFF"
+        android:hint="Name"
+        android:padding="15dp"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/title"
+        />
+
+    <EditText
+        android:id="@+id/logIn_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#30FFFFFF"
+        android:hint="Name"
+        android:padding="15dp"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/logIn_email"
+        />
+
     <Button
         android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/title"
+        android:layout_below="@+id/logIn_password"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
@@ -42,7 +72,7 @@
         android:layout_below="@+id/login_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:clickable="true"
