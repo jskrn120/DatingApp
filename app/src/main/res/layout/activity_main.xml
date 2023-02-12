@@ -87,6 +87,14 @@
         android:text="LOG IN"
         android:textSize="16sp"></Button>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_below="@+id/login_btn"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginVertical="30sp"
+        android:background="#E91E63" />
+
     <Button
         android:id="@+id/signUp_btn"
         android:layout_width="wrap_content"
