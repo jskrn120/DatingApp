@@ -20,7 +20,7 @@
         android:text="mingLe"
         android:textColor="@color/pink"
         android:textSize="60sp"
-        android:textStyle="bold"></TextView>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/login_title"
@@ -36,7 +36,7 @@
         android:text="Log In"
         android:textColor="@color/white"
         android:textSize="24sp"
-        android:textStyle="normal"></TextView>
+        android:textStyle="normal" />
 
     <EditText
         android:id="@+id/logIn_email"
@@ -85,32 +85,51 @@
         android:paddingHorizontal="60sp"
         android:paddingVertical="20sp"
         android:text="LOG IN"
-        android:textSize="16sp"></Button>
+        android:textSize="16sp" />
 
-    <View
+    <!--<View
         android:layout_width="match_parent"
         android:layout_height="2sp"
         android:layout_below="@+id/login_btn"
         android:layout_marginHorizontal="30sp"
         android:layout_marginVertical="30sp"
-        android:background="#E91E63" />
+        android:background="#E91E63" />-->
+
+    <TextView
+        android:id="@+id/or_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_btn"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:text="or"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/or_text"
+        android:layout_marginTop="60sp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Continue with"/>
 
     <Button
         android:id="@+id/signUp_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/login_btn"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
         android:backgroundTint="#FE007F"
         android:clickable="true"
         android:fontFamily="@font/barlow_medium"
         android:onClick="onClickSignUp"
         android:paddingHorizontal="60sp"
         android:paddingVertical="20sp"
-        android:text="SIGN UP"></Button>
+        android:text="SIGN UP" />
 
 </RelativeLayout>
