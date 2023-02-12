@@ -96,25 +96,37 @@
         android:background="#E91E63" />-->
 
     <TextView
-        android:id="@+id/or_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/login_btn"
-        android:layout_marginTop="60sp"
-        android:gravity="center"
-        android:text="or"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/or_text"
-        android:layout_marginTop="60sp"
+        android:layout_above="@+id/icons_layout"
+        android:layout_marginTop="30sp"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:gravity="center"
-        android:text="Continue with"/>
+        android:text="or Continue with"/>
+
+    <LinearLayout
+        android:id="@+id/icons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signUp_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60sp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/google_icon" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/facebook_iconpng" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/signUp_btn"
@@ -124,12 +136,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#FE007F"
+        android:backgroundTint="#00FE007F"
         android:clickable="true"
         android:fontFamily="@font/barlow_medium"
         android:onClick="onClickSignUp"
-        android:paddingHorizontal="60sp"
-        android:paddingVertical="20sp"
-        android:text="SIGN UP" />
+        android:paddingHorizontal="0sp"
+        android:paddingVertical="0sp"
+        android:textColor="@color/white"
+        android:text="Create an account"
+        />
 
 </RelativeLayout>
