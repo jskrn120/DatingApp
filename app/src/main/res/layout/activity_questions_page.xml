@@ -26,7 +26,7 @@
             android:textColor="@color/white"
             android:padding="7dp"
             android:textSize="40dp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/questions_subHeading"
