@@ -47,13 +47,13 @@
             android:text="1. Where are you located?"
             android:textSize="20dp" />
 
-        <TextView
+        <Spinner
             android:id="@+id/answer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text=""
             android:background="#30FFFFFF"
+            android:text=""
             android:textSize="20dp" />
 
         <TextView
