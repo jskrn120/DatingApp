@@ -47,7 +47,15 @@
             android:text="1. Where are you located?"
             android:textSize="20dp" />
 
+<<<<<<< HEAD
         <TextView
+=======
+<<<<<<< Updated upstream
+        <Spinner
+=======
+        <EditText
+>>>>>>> Stashed changes
+>>>>>>> parent of 7ceb2c9 (Revert "cdcdd")
             android:id="@+id/answer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preferences"
+    android:orientation="vertical"
+    android:background="#FFB6C1">
+
+    <TextView
+        android:id="@+id/preferences_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#E91E63"
+        android:fontFamily="cursive"
+        android:text="Search Preferences"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:padding="7dp"
+        android:textSize="40dp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:id="@+id/preference1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preferences_heading"
+        android:fontFamily="casual"
+        android:text="looking for"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_shape"/>
+    <TextView
+        android:id="@+id/preference2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preferences_heading"
+        android:fontFamily="casual"
+        android:text="Age"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/preference3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preferences_heading"
+        android:fontFamily="casual"
+        android:text="Search Distance"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/preference4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preferences_heading"
+        android:fontFamily="casual"
+        android:text="Relationship Status"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+
+
+
+</LinearLayout>
