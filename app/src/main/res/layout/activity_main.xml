@@ -65,14 +65,10 @@
         android:layout_marginEnd="10sp"
         android:layout_marginBottom="10sp"
         android:background="#30FFFFFF"
-<<<<<<< Updated upstream
         android:drawableLeft="@drawable/baseline_lock_24"
         android:drawablePadding="10dp"
         android:fontFamily="@font/barlow_light"
         android:hint="Password"
-=======
-        android:hint="P"
->>>>>>> Stashed changes
         android:padding="15dp"
         android:textColorHint="@color/white" />
 
