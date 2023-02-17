@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#F8DADF"
+        android:background="#FFB6C1"
         android:orientation="vertical">
 
         <TextView
@@ -19,13 +19,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
+            android:background="#E91E63"
             android:fontFamily="cursive"
             android:text="Personal Information"
             android:textAlignment="center"
-            android:textColor="#C31953"
+            android:textColor="@color/white"
             android:padding="7dp"
             android:textSize="40dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"></TextView>
 
         <TextView
             android:id="@+id/questions_subHeading"
@@ -35,7 +36,7 @@
             android:fontFamily="casual"
             android:text="Fill out the below fields"
             android:textAlignment="center"
-            android:textSize="17dp" />
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/question1"
@@ -46,12 +47,11 @@
             android:text="1. Where are you located?"
             android:textSize="20dp" />
 
-        <TextView
+        <EditText
             android:id="@+id/answer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text=""
             android:background="#30FFFFFF"
             android:textSize="20dp" />
 
@@ -311,14 +311,13 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/logIn_password"
             android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:layout_gravity="center"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:onClick="onClickLogIn"
             android:padding="20sp"
-            android:text="LOGIN" />
+            android:text="LOGIN"></Button>
 
 
     </LinearLayout>
